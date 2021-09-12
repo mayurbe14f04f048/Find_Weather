@@ -1,0 +1,113 @@
+.input {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-left: 70px;
+    padding-top: 70px;
+    padding-left: 20px;
+    font-size: 30px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    outline: none;
+    border-bottom-style: groove;
+
+}
+
+.button {
+    padding: 10px 4px;
+    margin-left: 50px;
+    background-color: rgb(173, 30, 240);
+    color: white;
+    background-origin: 2px solid black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button:hover {
+  
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+   
+}
+
+.header-div {
+    
+    margin: 20px;
+    padding: 50px 0 0 0;
+
+}
+
+.header-div div {
+    
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.data {
+    margin-top: 50px;
+    background-color :white;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-bottom: 3rem;
+    border-radius: 20px;
+    padding : 10px 0 0 0;
+
+}
+.data img{
+    background: #2da1f3;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: -60px;
+    z-index: 1;
+   
+
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.location {
+    font-weight: 300;
+}
+
+.weather-description h3 {
+    color: #837A9A;
+    font-weight: 400;
+}
+
+.weather-description p {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+}
+
+body {
+      background-color:black;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .weather-description {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .header-div {
+        margin: 20px 90px 20px 90px;
+    }
+    section {
+        text-align: center;
+    }
+}
